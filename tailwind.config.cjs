@@ -2,7 +2,9 @@
 module.exports = {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    fontFamily: {
+      "signature-1": ["Marck Script", "cursive"],
+    },
   },
   plugins: [],
 };
