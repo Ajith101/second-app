@@ -1,5 +1,6 @@
 import React from "react";
 import { bgimg } from "../../assets/Index";
+import Typewriter from "typewriter-effect";
 
 const Home = () => {
   return (
@@ -7,13 +8,20 @@ const Home = () => {
       <section className="my-10 md:flex">
         <div className="md:w-1/2 w-full flex flex-col justify-center items-center">
           <div className="flex flex-col gap-4 w-[90%]">
-            <h1 className="text-2xl">Hello Im </h1>
-            <h1 className="text-7xl text-[#db2be2cf] font-bold font-signature-1 uppercase">
+            <h3 className="text-2xl">
+              <Typewriter
+                options={{
+                  strings: ["Hello", "World", "Im proffetional codder"],
+                  autoStart: true,
+                  loop: true,
+                }}
+              />
+            </h3>
+
+            <h1 className="text-7xl text-[#db2be2cf] font-bold font-font-2 uppercase">
               Preethi Ms
             </h1>
-            <h3 className="text-2xl">
-              im a professional Freelance Web designer
-            </h3>
+
             <p className="text-xl font-font-2">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
               laborum in saepe. Inventore perferendis voluptatem distinctio
