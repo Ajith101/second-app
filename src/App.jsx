@@ -5,12 +5,12 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <div className="App">
+    <div className="">
       <Header />
-      <Hero />
+      <div className="mx-2 md:mx-40 flex flex-col gap-20">
+        <Hero />
+      </div>
     </div>
   );
 }

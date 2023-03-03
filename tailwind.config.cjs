@@ -4,6 +4,7 @@ module.exports = {
   theme: {
     fontFamily: {
       "signature-1": ["Marck Script", "cursive"],
+      "font-2": ["Josefin Sans", "sans-serif"],
     },
   },
   plugins: [],

@@ -1,10 +1,15 @@
 import React from "react";
+import About from "./pages/About";
+import Home from "./pages/Home";
+import Services from "./pages/Services";
 
 const Hero = () => {
   return (
-    <div className="bg-slate-300 w-full h-screen text-3xl font-semibold flex justify-center items-center">
-      This website only for Thakki chukki
-    </div>
+    <>
+      <Home />
+      <About />
+      <Services />
+    </>
   );
 };
 
