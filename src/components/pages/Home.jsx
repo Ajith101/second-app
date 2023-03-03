@@ -21,7 +21,7 @@ const Home = () => {
               eius voluptate, consequatur commodi quidem! Ducimus.
             </p>
             <div className="">
-              <button className="bg-[#db2be2cf] text-white px-7 font-font-2 py-3 text-center text-xl rounded-md">
+              <button className="bg-[#db2be2cf] hover:bg-amber-400 text-white px-7 font-font-2 py-3 text-center text-xl rounded-md">
                 Hire Me
               </button>
             </div>
@@ -30,7 +30,7 @@ const Home = () => {
         <div className="md:w-1/2 w-full flex flex-col justify-center items-center">
           <div className="md:w-[500px] object-cover p-5 shadow-2xl">
             <img
-              className="w-full rounded-xl overflow-hidden h-full object-cover"
+              className="w-full duration-500 ease-in-out hover:scale-110 rounded-xl overflow-hidden h-full object-cover"
               src={bgimg}
               alt=""
             />

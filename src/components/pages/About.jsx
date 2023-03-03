@@ -6,7 +6,7 @@ const About = () => {
       <div className="md:w-1/2 w-full flex flex-col justify-end items-center order-2 md:order-none">
         <div className="md:w-[500px] rounded-lg overflow-hidden w-[100%] h-[350px] object-cover md:h-[350px]">
           <img
-            className="w-full h-full object-cover bg-[50%]"
+            className="w-full h-full hover:scale-125 duration-300 ease-in-out object-cover bg-[50%]"
             src="https://images.unsplash.com/photo-1525389999255-82bad487f23c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
             alt=""
           />
@@ -29,7 +29,7 @@ const About = () => {
             quae veniam aperiam esse.
           </p>
           <div className="">
-            <button className="bg-[#db2be2cf] text-white px-7 font-font-2 py-3 text-center text-xl rounded-md">
+            <button className="bg-[#db2be2cf] hover:bg-amber-400 text-white px-7 font-font-2 py-3 text-center text-xl rounded-md">
               View My Works
             </button>
           </div>

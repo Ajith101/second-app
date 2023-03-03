@@ -48,7 +48,10 @@ const servicesData = [
 
 let serviceCards = servicesData.map((item, id) => {
   return (
-    <div key={id} className="shadow-2xl rounded-xl flex flex-col gap-6 p-4">
+    <div
+      key={id}
+      className="shadow-2xl rounded-xl flex flex-col gap-6 p-4 hover:text-white hover:bg-[#db2be2cf]"
+    >
       <div className="text-center">
         <item.logo
           size={"50px"}
