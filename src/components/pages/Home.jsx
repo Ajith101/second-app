@@ -11,7 +11,7 @@ const Home = () => {
             <h3 className="text-2xl">
               <Typewriter
                 options={{
-                  strings: ["Hello", "World", "Im proffetional codder"],
+                  strings: ["Hello World", "Im Professional Coder"],
                   autoStart: true,
                   loop: true,
                 }}

@@ -8,8 +8,8 @@ const Header = () => {
   return (
     <>
       <div className="flex w-full p-4 text-xl text-white bg-[#db2be2cf] justify-between items-center">
-        <div className="">
-          <h1 className="text-3xl font-signature-1 font-bold">Thakkis Site</h1>
+        <div className="bg-blue-700 text-white text-center p-3 border-[2px] border-white rounded-full">
+          <h1 className="text-3xl font-bold">P</h1>
         </div>
         <div className="">
           <ul className="md:flex hidden md:gap-6 md:justify-center md:items-center">

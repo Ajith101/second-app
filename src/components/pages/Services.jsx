@@ -66,7 +66,7 @@ let serviceCards = servicesData.map((item, id) => {
 
 const Services = () => {
   return (
-    <div className="flex flex-col md:my-24 gap-10 justify-center items-center">
+    <section className="flex flex-col md:my-24 gap-10 justify-center items-center">
       <h1 className="text-4xl text-[#db2be2cf] font-bold font-font-2 uppercase">
         services
         <div className="border-[2px] w-[60px] border-[#db2be2cf]"></div>
@@ -74,7 +74,7 @@ const Services = () => {
       <div className="grid md:w-[80%] w-[95%] sm:grid-cols-2 md:grid-cols-3 gap-10">
         {serviceCards}
       </div>
-    </div>
+    </section>
   );
 };
 
