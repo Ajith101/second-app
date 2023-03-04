@@ -1,4 +1,5 @@
 import React from "react";
+import FixedNavigationBar from "./navigationBar/FixedNavigationBar";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Home from "./pages/Home";
@@ -11,6 +12,7 @@ const Hero = () => {
       <About />
       <Services />
       <Contact />
+      <FixedNavigationBar />
     </>
   );
 };

@@ -3,7 +3,10 @@ import Submit from "./Submit";
 
 const Contact = () => {
   return (
-    <section className="md:flex w-full mb-16 md:justify-center md:items-center">
+    <section
+      id="contact"
+      className="md:flex w-full mb-16 md:justify-center md:items-center"
+    >
       <div className="w-full md:w-1/2">
         <h1 className="text-4xl text-[#db2be2cf] font-bold font-font-2 uppercase">
           Contact Me

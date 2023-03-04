@@ -3,7 +3,6 @@ import { AiOutlineAntDesign, AiOutlineGlobal } from "react-icons/ai";
 import { BiCodeAlt } from "react-icons/bi";
 import { RiShoppingBag3Fill } from "react-icons/ri";
 import { HiChartSquareBar } from "react-icons/hi";
-import { GrAppsRounded } from "react-icons/gr";
 import { ImStack } from "react-icons/im";
 
 const servicesData = [
@@ -66,7 +65,10 @@ let serviceCards = servicesData.map((item, id) => {
 
 const Services = () => {
   return (
-    <section className="flex flex-col md:my-24 gap-10 justify-center items-center">
+    <section
+      id="service"
+      className="flex flex-col md:my-24 gap-10 justify-center items-center"
+    >
       <h1 className="text-4xl text-[#db2be2cf] font-bold font-font-2 uppercase">
         services
         <div className="border-[2px] w-[60px] border-[#db2be2cf]"></div>

@@ -1,7 +1,46 @@
 import React from "react";
 import { TfiClose } from "react-icons/tfi";
+import { Link } from "react-scroll";
 
 const MobileNav = ({ shoeMenu, setShowMenu }) => {
+  const datas = [
+    {
+      logo: "Home",
+      to: "home",
+    },
+    {
+      logo: "ABout",
+      to: "about",
+    },
+    {
+      logo: "SerVices",
+      to: "service",
+    },
+    {
+      logo: "Contact",
+      to: "contact",
+    },
+  ];
+
+  let displayLinks = datas.map((item, id) => {
+    return (
+      <li key={id}>
+        <Link
+          onClick={() => setShowMenu(!shoeMenu)}
+          to={item.to}
+          activeClass="bg-[#db2be2cf] text-white rounded-md"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+          className="transition-all hover:cursor-pointer"
+        >
+          {item.logo}
+        </Link>
+      </li>
+    );
+  });
+
   return (
     <div className="bg-indigo-500 text-white w-2/3 h-screen fixed z-30 right-0 top-0 flex justify-center items-center md:hidden">
       <div
@@ -10,12 +49,7 @@ const MobileNav = ({ shoeMenu, setShowMenu }) => {
       >
         <TfiClose size={"25px"} />
       </div>
-      <ul className="flex flex-col gap-5 text-xl">
-        <li>Home</li>
-        <li>Contact Thakki</li>
-        <li>About Thakkhi</li>
-        <li>ETc</li>
-      </ul>
+      <ul className="flex flex-col gap-5 text-xl">{displayLinks}</ul>
     </div>
   );
 };

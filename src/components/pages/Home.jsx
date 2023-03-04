@@ -5,7 +5,7 @@ import Typewriter from "typewriter-effect";
 const Home = () => {
   return (
     <>
-      <section className="my-10 md:flex">
+      <section id="home" className="my-10 md:flex">
         <div className="md:w-1/2 w-full flex flex-col justify-center items-center">
           <div className="flex flex-col gap-4 w-[90%]">
             <h3 className="text-2xl">

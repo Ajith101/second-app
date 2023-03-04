@@ -2,7 +2,10 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="md:flex-row gap-10 md:gap-0 flex flex-col w-full h-full">
+    <section
+      id="about"
+      className="md:flex-row gap-10 md:gap-0 flex flex-col w-full h-full"
+    >
       <div className="md:w-1/2 w-full flex flex-col justify-end items-center order-2 md:order-none">
         <div className="md:w-[500px] flex flex-col justify-end items-center rounded-lg overflow-hidden w-[100%] h-[350px] object-cover md:h-[350px]">
           <img
@@ -35,7 +38,7 @@ const About = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
