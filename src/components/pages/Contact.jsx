@@ -15,7 +15,7 @@ const Contact = () => {
       </div>
       <div className="w-full md:w-1/2 flex justify-center items-center">
         <img
-          className="w-[95%] rounded-lg overflow-hidden object-contain"
+          className="w-[95%] h-[350px] md:h-[500px] rounded-lg overflow-hidden object-cover md:object-contain"
           src="https://images.unsplash.com/photo-1503248947681-3198a7abfcc9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
           alt=""
         />
