@@ -9,3 +9,10 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+.name {
+  font-weight: 800;
+  text-shadow: -0.08em 0.03em 0.12em rgba(0, 0, 0, 0.9);
+}
+.name:not(:first-child) {
+  margin-left: -0.23em;
+}

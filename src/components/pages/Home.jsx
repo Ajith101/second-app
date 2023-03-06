@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { bgimg } from "../../assets/Index";
 import Typewriter from "typewriter-effect";
 
@@ -6,7 +6,12 @@ const Home = () => {
   return (
     <>
       <section id="home" className="my-10 md:flex">
-        <div className="md:w-1/2 w-full flex flex-col justify-center items-center">
+        <div
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+          className="md:w-1/2 w-full flex flex-col justify-center items-center"
+        >
           <div className="flex flex-col gap-4 w-[90%]">
             <h3 className="text-2xl">
               <Typewriter
@@ -35,8 +40,13 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className="md:w-1/2 w-full flex flex-col justify-center items-center">
-          <div className="md:w-[500px] object-cover p-5 shadow-2xl">
+        <div
+          data-aos="fade-up-left"
+          data-aos-easing="ease-in-sine"
+          data-aos-duration="900"
+          className="md:w-1/2 w-full flex flex-col justify-center items-center"
+        >
+          <div className="md:w-[400px] lg:w-[500px] object-cover p-5 shadow-2xl">
             <img
               className="w-full duration-500 ease-in-out hover:scale-110 rounded-xl overflow-hidden h-full object-cover"
               src={bgimg}

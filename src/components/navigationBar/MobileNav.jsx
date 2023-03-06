@@ -2,26 +2,26 @@ import React from "react";
 import { TfiClose } from "react-icons/tfi";
 import { Link } from "react-scroll";
 
-const MobileNav = ({ shoeMenu, setShowMenu }) => {
-  const datas = [
-    {
-      logo: "Home",
-      to: "home",
-    },
-    {
-      logo: "ABout",
-      to: "about",
-    },
-    {
-      logo: "SerVices",
-      to: "service",
-    },
-    {
-      logo: "Contact",
-      to: "contact",
-    },
-  ];
+const datas = [
+  {
+    logo: "Home",
+    to: "home",
+  },
+  {
+    logo: "ABout",
+    to: "about",
+  },
+  {
+    logo: "SerVices",
+    to: "service",
+  },
+  {
+    logo: "Contact",
+    to: "contact",
+  },
+];
 
+const MobileNav = ({ shoeMenu, setShowMenu }) => {
   let displayLinks = datas.map((item, id) => {
     return (
       <li key={id}>
@@ -54,4 +54,4 @@ const MobileNav = ({ shoeMenu, setShowMenu }) => {
   );
 };
 
-export default MobileNav;
+export { MobileNav, datas };

@@ -73,7 +73,7 @@ const Services = () => {
         services
         <div className="border-[2px] w-[60px] border-[#db2be2cf]"></div>
       </h1>
-      <div className="grid md:w-[80%] w-[95%] sm:grid-cols-2 md:grid-cols-3 gap-10">
+      <div className="grid lg:w-[90%] md:w-[90%] w-[95%] sm:grid-cols-2 md:grid-cols-3 gap-10">
         {serviceCards}
       </div>
     </section>

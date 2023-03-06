@@ -6,7 +6,12 @@ const About = () => {
       id="about"
       className="md:flex-row gap-10 md:gap-0 flex flex-col w-full h-full"
     >
-      <div className="md:w-1/2 w-full flex flex-col justify-end items-center order-2 md:order-none">
+      <div
+        data-aos="zoom-in"
+        data-aos-easing="ease-in-sine"
+        data-aos-duration="1000"
+        className="md:w-1/2 w-full flex flex-col justify-end items-center order-2 md:order-none"
+      >
         <div className="md:w-[500px] flex flex-col justify-end items-center rounded-lg overflow-hidden w-[100%] h-[350px] object-cover md:h-[350px]">
           <img
             className="w-full h-full hover:scale-125 duration-300 ease-in-out object-cover bg-[50%]"
