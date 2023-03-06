@@ -37,7 +37,7 @@ const About = () => {
             quae veniam aperiam esse.
           </p>
           <div className="">
-            <button className="bg-[#db2be2cf] hover:bg-amber-400 text-white px-7 font-font-2 py-3 text-center text-xl rounded-md">
+            <button className="bg-[#000000f2] hover:bg-amber-400 text-white px-7 font-font-2 py-3 text-center text-xl rounded-md">
               View My Works
             </button>
           </div>

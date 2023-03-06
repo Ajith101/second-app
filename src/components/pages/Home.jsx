@@ -24,7 +24,7 @@ const Home = () => {
             </h3>
 
             <h1 className="text-7xl text-[#db2be2cf] font-bold font-font-2 uppercase">
-              Preethi Ms
+              Ajith Tnr
             </h1>
 
             <p className="text-xl font-font-2">
@@ -34,7 +34,7 @@ const Home = () => {
               eius voluptate, consequatur commodi quidem! Ducimus.
             </p>
             <div className="">
-              <button className="bg-[#db2be2cf] hover:bg-amber-400 text-white px-7 font-font-2 py-3 text-center text-xl rounded-md">
+              <button className="bg-[#000000f2] hover:bg-amber-400 text-white px-7 font-font-2 py-3 text-center text-xl rounded-md">
                 Hire Me
               </button>
             </div>

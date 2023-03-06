@@ -42,7 +42,7 @@ const MobileNav = ({ shoeMenu, setShowMenu }) => {
   });
 
   return (
-    <div className="bg-indigo-500 text-white w-2/3 h-screen fixed z-30 right-0 top-0 flex justify-center items-center md:hidden">
+    <div className="bg-[#2b71e2e3] text-white w-2/3 h-screen fixed z-30 right-0 top-0 flex justify-center items-center md:hidden">
       <div
         onClick={() => setShowMenu(!shoeMenu)}
         className="fixed top-5 right-6 z-30"
