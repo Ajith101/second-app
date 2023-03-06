@@ -48,6 +48,11 @@ const servicesData = [
 let serviceCards = servicesData.map((item, id) => {
   return (
     <div
+      data-aos="zoom-in-down"
+      data-aos-easing="ease-in-back"
+      data-aos-delay="300"
+      data-aos-offset="0"
+      data-aos-duration="900"
       key={id}
       className="shadow-2xl rounded-xl flex flex-col gap-6 p-4 hover:text-white hover:bg-[#db2be2cf]"
     >

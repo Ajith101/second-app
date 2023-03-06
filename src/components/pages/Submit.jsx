@@ -13,7 +13,16 @@ const Submit = () => {
   // //   console.log(message);
 
   return (
-    <form onSubmit={sbtHandler} className="flex flex-col gap-5" action="">
+    <form
+      data-aos="zoom-out-right"
+      data-aos-easing="ease-in-back"
+      data-aos-delay="300"
+      data-aos-offset="0"
+      data-aos-duration="900"
+      onSubmit={sbtHandler}
+      className="flex flex-col gap-5"
+      action=""
+    >
       <div className="flex gap-5">
         <input
           onChange={(e) => setName(e.target.value)}
